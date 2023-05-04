@@ -1,0 +1,48 @@
+.list-container {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+}
+
+.list-data-container {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  align-items: center;
+}
+
+.domain-logo {
+  margin-right: 20px;
+  width: 40px;
+  height: 40px;
+}
+
+.delete-btn {
+  width: 40px;
+  border-style: none;
+  background-color: transparent;
+}
+@media (max-width: 576px) {
+  .list-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.time {
+  color: #64748b;
+}
+
+.domain-url {
+  color: #64748b;
+  margin-left: 10px;
+}
